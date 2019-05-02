@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{45E2CE63-B5BD-4C6A-962A-E249371F6A70}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Shared/_Layout.cshtml">
     <Files>
       <File FileName="Models/Movie.cs" Line="14" Column="42" />
       <File FileName="Models/RazorPagesMovieContext.cs" Line="18" Column="1" />
       <File FileName="appsettings.json" Line="10" Column="3" />
       <File FileName="README.md" Line="5" Column="19" />
       <File FileName="Startup.cs" Line="36" Column="13" />
+      <File FileName="Pages/Movies/Index.cshtml.cs" Line="20" Column="1" />
+      <File FileName="Pages/Movies/Index.cshtml" Line="2" Column="7" />
+      <File FileName="Pages/Shared/_Layout.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +17,12 @@
             <Node name="RazorPagesMovie" expanded="True">
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="README.md" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Movies" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

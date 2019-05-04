@@ -13,7 +13,7 @@ namespace RazorPagesMovie.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<RazorPagesMovieContext>>()))
             {
-                 Look for any movies.
+                 //Look for any movies.
                 if (context.Movie.Any())
                 {
                     return;   // DB has been seeded

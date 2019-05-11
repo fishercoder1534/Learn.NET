@@ -1,3 +1,4 @@
 .vs/
 *.db
 *.swp
+.DS_Store
